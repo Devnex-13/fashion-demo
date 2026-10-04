@@ -143,7 +143,6 @@ function App() {
       window.removeEventListener("resize", resizeCanvas);
     };
   }, []);
-
   return (
     <>
       <main className="experience" id="home" ref={trackRef}>
